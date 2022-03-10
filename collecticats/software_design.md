@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Software Design
+# Software Design CollectiCats
 
 <!-- omit in toc -->
 ## Table of contents
