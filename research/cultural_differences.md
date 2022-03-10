@@ -1,7 +1,7 @@
 # Cultural differences
 Written by: Jeffrey E.G. Derksen  
-For course: S-DB-GPS3-S3  
-Class: DB01  
+For course: S-DB-GPS3  
+Class: S3-DB01  
 Date: 23 February 2022  
 Version: 1  
 
@@ -36,4 +36,4 @@ Example 2 will be provided here soon...
 ## Sources
 
 - Slides provided by the course: introduction, framework and cultural clusters
-- Wikipedia: [culture](https://en.wikipedia.org/wiki/Culture), [Hofstede's theory](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory)
+- [Wikipedia: Culture](https://en.wikipedia.org/wiki/Culture), [Hofstede's theory](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory)
