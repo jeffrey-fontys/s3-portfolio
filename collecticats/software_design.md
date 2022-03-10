@@ -1,6 +1,8 @@
-# Software Design <!-- omit in toc -->
+<!-- omit in toc -->
+# Software Design
 
-## Table of contents <!-- omit in toc -->
+<!-- omit in toc -->
+## Table of contents
 
 - [1. User Stories](#1-user-stories)
 - [2. Entity Relationship Model](#2-entity-relationship-model)
