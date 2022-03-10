@@ -2,8 +2,8 @@
 # Reader's Guide for Semester 3 Portfolio
 
 Written by: Jeffrey E.G. Derksen  
-For course: S-DB-IPS3-S3 and S-DB-GPS3-S3  
-Class: DB01  
+For course: S-DB-IPS3 and S-DB-GPS3  
+Class: S3-DB01  
 Coaches: Bert Aarts, Samuil Angelov and Leon van Bokhorst  
 Date: 10 March 2022  
 Version: 1  
