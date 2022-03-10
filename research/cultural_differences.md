@@ -36,4 +36,4 @@ Example 2 will be provided here soon...
 ## Sources
 
 - Slides provided by the course: introduction, framework and cultural clusters
-- [Wikipedia: Culture](https://en.wikipedia.org/wiki/Culture), [Hofstede's theory](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory)
+- Wikipedia: [Culture](https://en.wikipedia.org/wiki/Culture), [Hofstede's theory](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory)
