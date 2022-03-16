@@ -60,9 +60,12 @@ Placeholder
 
 ## 3. CollectiCats
 
+Inspired by: [CryptoKitties](https://www.cryptokitties.co/)
+
 CollectiCats is my individual project and is a web based collecting/trading game where players can collect virtual cats and trade them with each other. These cats have unique properties as a result of their genes. Try to collect as many special and rare cats as you can!
 
-Inspired by: [CryptoKitties](https://www.cryptokitties.co/)
+I have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help me manage this process. I have chosen to divide the project into five sprints of three weeks each.  
+[View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-s3-individual)
 
 ### 3.1. Software design
 
