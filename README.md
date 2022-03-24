@@ -26,9 +26,9 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [2.2. Ethics](#22-ethics)
   - [2.3. Security](#23-security)
   - [2.4. Research 4](#24-research-4)
-- [3. CollectiCats](#3-collecticats)
+- [3. Individual Project (CollectiCats)](#3-individual-project-collecticats)
   - [3.1. Software design](#31-software-design)
-- [4. Eeventify](#4-eeventify)
+- [4. Group Project (Eeventify)](#4-group-project-eeventify)
   - [4.1. Software design](#41-software-design)
 - [5. Reflection](#5-reflection)
 
@@ -58,7 +58,7 @@ Placeholder
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
-## 3. CollectiCats
+## 3. Individual Project (CollectiCats)
 
 Inspired by: [CryptoKitties](https://www.cryptokitties.co/)
 
@@ -67,7 +67,7 @@ CollectiCats is my individual project and is a web based collecting/trading game
 I have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help me manage this process. I have chosen to divide the project into five sprints of three weeks each.  
 [View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-s3-individual)
 
-A good software engineer can quickly adapt to and utilize new technologies, and it is something I personally really enjoy as well. After using C#/.NET for the majority of the last two semesters and also making use of it for the [Eeventify](#4-eeventify) application, I have chosen to write the back-end for the CollectiCats application in Java with the Spring framework. As I had no prior experience writing code with Java I followed a number of tutorials and guides to get myself acquainted with the language, the framework and the microservices architecture. These are the following:
+A good software engineer can quickly adapt to and utilize new technologies, and it is something I personally really enjoy as well. After using C#/.NET for the majority of the last two semesters and also making use of it for the [Eeventify](#4-group-project-eeventify) application, I have chosen to write the back-end for the CollectiCats application in Java with the Spring framework. As I had no prior experience writing code with Java I followed a number of tutorials and guides to get myself acquainted with the language, the framework and the microservices architecture. These are the following:
 
 - [Spring Boot Microservices Level 1: Communication](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas) by Jet Brains on YouTube
 - [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/) by Spring
@@ -81,7 +81,7 @@ For the CollectiCats application I have made a user stories, an entity relation 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
-## 4. Eeventify
+## 4. Group Project (Eeventify)
 
 Eeventify is the name of the group project developed in collaboration with two teams from the Oulu University of Applied Sciences (OAMK) located in Oulu, Finland. It is an application that helps people find others who share similar interests to theirs and provides a platform to organize, discover and join events (online *and* in person) that correspond to their interests.
 
