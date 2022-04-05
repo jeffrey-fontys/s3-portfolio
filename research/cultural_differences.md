@@ -23,7 +23,8 @@ A Dutch social psychologist named Geert Hofstede developed a framework for cross
 
 <figure>
     <img src="/images/6-dimensions-hofstedes-cultural-dimensions-theory.png"
-         alt="Diagram of Hofstede's cultural dimensions">
+         alt="Diagram of Hofstede's cultural dimensions"
+         width=60%>
     <figcaption>Hofstede's cultural dimensions. Source: iEduNote.com</figcaption>
 </figure>
 
