@@ -67,13 +67,11 @@ CollectiCats is my individual project and is a web based collecting/trading game
 I have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help me manage this process. I have chosen to divide the project into five sprints of three weeks each.  
 [View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-s3-individual)
 
-A good software engineer can quickly adapt to and utilize new technologies, and it is something I personally really enjoy as well. After using C#/.NET for the majority of the last two semesters and also making use of it for the [Eeventify](#4-group-project-eeventify) application, I have chosen to write the back-end for the CollectiCats application in Java with the Spring framework. As I had no prior experience writing code with Java I followed a number of tutorials and guides to get myself acquainted with the language, the framework and the microservices architecture. These are the following:
+A good software engineer can quickly adapt to and utilize new technologies, and it is something I personally really enjoy as well. After using C#/.NET for the majority of the last two semesters and also making use of it for the [Eeventify](#4-group-project-eeventify) application, I have chosen to write the back-end for the CollectiCats application in Java with the Spring framework. As I had no prior experience with writing code with Java, I followed a number of tutorials and guides to get myself acquainted with the language, the framework and the microservices architecture. These are the following:
 
 - [Spring Boot Microservices Level 1: Communication](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas) by Jet Brains on YouTube
 - [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/) by Spring
 - [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/) by Spring
-- [Securing a Web Application](https://spring.io/guides/gs/securing-web/) by Spring (**PLANNED - DONT FORGET!**)
-- [Building REST services with Spring](https://spring.io/guides/tutorials/rest/) by Spring (**PLANNED - DONT FORGET!**)
 
 ### 3.1. Software design
 
