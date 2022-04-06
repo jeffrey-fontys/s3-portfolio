@@ -107,8 +107,7 @@ With these tools I have written a workflow for each Eeventify service that:
 
 <figure>
     <img src="/images/eeventify_cicd1.png"
-         alt="Screenshot of CI/CD workflow for Eeventify"
-         width=80%>
+         alt="Screenshot of CI/CD workflow for Eeventify">
     <figcaption>Example of a CI/CD workflow run of Eeventify's user service.</figcaption>
 </figure>
 
