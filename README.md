@@ -45,7 +45,7 @@ This document serves as the Reader's Guide for my semester 3 portfolio of the ba
 ### 2.1. Cultural differences
 
 For the subject of cultural differences I have done some research about what culture is and what are well-known dimensions on cultural differences. I have also written about my personal experiences with cultural differences. This product helps prove my proficiency at learning outcome 5: Cultural differences and ethics.  
-[View file](/research/cultural_differences.md)
+[📄 View file](/research/cultural_differences.md)
 
 ### 2.2. Ethics
 
@@ -105,11 +105,8 @@ With these tools I have written a workflow for each Eeventify service that:
 - Builds a Docker image;
 - Publishes the image to DockerHub.
 
-<figure>
-    <img src="/images/eeventify_cicd1.png"
-         alt="Screenshot of CI/CD workflow for Eeventify">
-    <figcaption>Example of a CI/CD workflow run of Eeventify's user service.</figcaption>
-</figure><br><br>
+![Screenshot of CI/CD workflow for Eeventify](images/eeventify_cicd1.png)  
+*Example of a CI/CD workflow run of Eeventify's user service.*
 
 This workflow runs on each push to the main branch and for each pull request. Some of the steps are skipped depending on the context in which the workflow is executed. For example, the docker image should not be published to DockerHub if the workflow runs as part of a pull request check.
 
