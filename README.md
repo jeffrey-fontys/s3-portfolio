@@ -5,8 +5,8 @@ Written by: Jeffrey E.G. Derksen
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
 Coaches: Bert Aarts, Samuil Angelov and Leon van Bokhorst  
-Date: 10 March 2022  
-Version: 1  
+Date: 6 April 2022  
+Version: 2  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
 
@@ -16,6 +16,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 | Version | Changes |
 |---------|---------|
 | 1 | Initial version. |
+| 2 | * Updated version of [Cultural Differences research](#21-cultural-differences)<br>* Extended [section 3](#3-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 4.2](#42-cicd) about CI/CD within group project |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -30,6 +31,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [3.1. Software design](#31-software-design)
 - [4. Group Project (Eeventify)](#4-group-project-eeventify)
   - [4.1. Software design](#41-software-design)
+  - [4.2. CI/CD](#42-cicd)
 - [5. Reflection](#5-reflection)
 
 ## 1. Introduction
@@ -42,7 +44,8 @@ This document serves as the Reader's Guide for my semester 3 portfolio of the ba
 
 ### 2.1. Cultural differences
 
-For the subject of cultural differences I have done some research about what culture is and what are well-known dimensions on cultural differences. I have also written about my personal experiences with cultural differences. This product helps prove my proficiency at learning outcome 5: Cultural differences and ethics. [View file](/research/cultural_differences.md)
+For the subject of cultural differences I have done some research about what culture is and what are well-known dimensions on cultural differences. I have also written about my personal experiences with cultural differences. This product helps prove my proficiency at learning outcome 5: Cultural differences and ethics.  
+[View file](/research/cultural_differences.md)
 
 ### 2.2. Ethics
 
@@ -60,6 +63,8 @@ Placeholder
 
 ## 3. Individual Project (CollectiCats)
 
+![CollectiCats logo](images/CollectiCats_logo_trans.png)
+
 Inspired by: [CryptoKitties](https://www.cryptokitties.co/)
 
 CollectiCats is my individual project and is a web based collecting/trading game where players can collect virtual cats and trade them with each other. These cats have unique properties as a result of their genes. Try to collect as many special and rare cats as you can!
@@ -75,9 +80,9 @@ A good software engineer can quickly adapt to and utilize new technologies, and 
 
 ### 3.1. Software design
 
-For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document. [View file](/collecticats/software_design.md)
+For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.
 
-[⬆️ Back to Table of Contents](#table-of-contents)
+[⬆️ Back to Table of Contents](#table-of-contents) [📄 View file](/collecticats/software_design.md)
 
 ## 4. Group Project (Eeventify)
 
@@ -85,9 +90,33 @@ Eeventify is the name of the group project developed in collaboration with two t
 
 ### 4.1. Software design
 
-For the CollectiCats application I have made an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document. [View file](/eeventify/software_design.md)
+For the CollectiCats application I have made an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.  
 
-[⬆️ Back to Table of Contents](#table-of-contents)
+[⬆️ Back to Table of Contents](#table-of-contents) [📄 View file](/eeventify/software_design.md)
+
+### 4.2. CI/CD
+
+For the Eeventify project I took up development of the CI/CD workflow together with another student. He took responsibility for the continues deployment, while I worked on continuous integration and delivery. In order to achieve this I made use of GitHub Actions, a CI/CD platform offered by the GitHub team that integrates directly with the source code repository. I had never used this platform before or even made use CI/CD of any kind, but the [documentation](https://docs.github.com/en/actions) proved quite helpful and GitHub provides several useful template workflows for different kind of projects and goals, such as building a .NET project or building and publishing a Docker image.
+
+With these tools I have written a workflow for each Eeventify service that:
+- Builds the project and runs unit tests;
+- Generates a OpenAPI/Swagger documentation file;
+- Pushes the generated documentation file to the repository containing all documentation files;
+- Builds a Docker image;
+- Publishes the image to DockerHub.
+
+<figure>
+    <img src="/images/eeventify_cicd1.png"
+         alt="Screenshot of CI/CD workflow for Eeventify"
+         width=80%>
+    <figcaption>Example of a CI/CD workflow run of Eeventify's user service.</figcaption>
+</figure>
+
+This workflow runs on each push to the main branch and for each pull request. Some of the steps are skipped depending on the context in which the workflow is executed. For example, the docker image should not be published to DockerHub if the workflow runs as part of a pull request check.
+
+I believe that I learned a lot about CI/CD while setting these workflows up for the Eeventify project and that this helps prove my proficiency at learning outcome 4: CI/CD.
+
+[⬆️ Back to Table of Contents](#table-of-contents) [📄 View file](https://github.com/Eeventify/user-service/blob/main/.github/workflows/main.yml)
 
 ## 5. Reflection
 
