@@ -109,7 +109,7 @@ With these tools I have written a workflow for each Eeventify service that:
     <img src="/images/eeventify_cicd1.png"
          alt="Screenshot of CI/CD workflow for Eeventify">
     <figcaption>Example of a CI/CD workflow run of Eeventify's user service.</figcaption>
-</figure>
+</figure><br>
 
 This workflow runs on each push to the main branch and for each pull request. Some of the steps are skipped depending on the context in which the workflow is executed. For example, the docker image should not be published to DockerHub if the workflow runs as part of a pull request check.
 
