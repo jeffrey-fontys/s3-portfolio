@@ -82,7 +82,7 @@ A good software engineer can quickly adapt to and utilize new technologies, and 
 
 For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.
 
-[⬆️ Back to Table of Contents](#table-of-contents) [📄 View file](/collecticats/software_design.md)
+[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/collecticats/software_design.md)
 
 ## 4. Group Project (Eeventify)
 
@@ -92,7 +92,7 @@ Eeventify is the name of the group project developed in collaboration with two t
 
 For the CollectiCats application I have made an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.  
 
-[⬆️ Back to Table of Contents](#table-of-contents) [📄 View file](/eeventify/software_design.md)
+[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/eeventify/software_design.md)
 
 ### 4.2. CI/CD
 
@@ -109,13 +109,13 @@ With these tools I have written a workflow for each Eeventify service that:
     <img src="/images/eeventify_cicd1.png"
          alt="Screenshot of CI/CD workflow for Eeventify">
     <figcaption>Example of a CI/CD workflow run of Eeventify's user service.</figcaption>
-</figure><br>
+</figure><br><br>
 
 This workflow runs on each push to the main branch and for each pull request. Some of the steps are skipped depending on the context in which the workflow is executed. For example, the docker image should not be published to DockerHub if the workflow runs as part of a pull request check.
 
 I believe that I learned a lot about CI/CD while setting these workflows up for the Eeventify project and that this helps prove my proficiency at learning outcome 4: CI/CD.
 
-[⬆️ Back to Table of Contents](#table-of-contents) [📄 View file](https://github.com/Eeventify/user-service/blob/main/.github/workflows/main.yml)
+[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](https://github.com/Eeventify/user-service/blob/main/.github/workflows/main.yml)
 
 ## 5. Reflection
 
