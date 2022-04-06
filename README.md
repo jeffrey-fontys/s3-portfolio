@@ -16,7 +16,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 | Version | Changes |
 |---------|---------|
 | 1 | Initial version. |
-| 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#21-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
+| 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
 
 <!-- omit in toc -->
 ## Table of contents
