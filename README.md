@@ -96,7 +96,7 @@ For the CollectiCats application I have made an entity relation model and a soft
 
 ### 4.2. CI/CD
 
-For the Eeventify project I took up development of the CI/CD workflow together with another student. He took responsibility for the continues deployment, while I worked on continuous integration and delivery. In order to achieve this I made use of GitHub Actions, a CI/CD platform offered by the GitHub team that integrates directly with the source code repository. I had never used this platform before or even made use CI/CD of any kind, but the [documentation](https://docs.github.com/en/actions) proved quite helpful and GitHub provides several useful template workflows for different kind of projects and goals, such as building a .NET project or building and publishing a Docker image.
+For the Eeventify project I took up development of the CI/CD workflow together with another student. He took responsibility for the continuous deployment, while I worked on continuous integration and delivery. In order to achieve this I made use of GitHub Actions, a CI/CD platform offered by the GitHub team that integrates directly with the source code repository. I had never used this platform before or even made use CI/CD of any kind, but the [documentation](https://docs.github.com/en/actions) proved quite helpful and GitHub provides several useful template workflows for different kind of projects and goals, such as building a .NET project or building and publishing a Docker image.
 
 With these tools I have written a workflow for each Eeventify service that:
 - Builds the project and runs unit tests;

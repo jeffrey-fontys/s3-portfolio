@@ -21,12 +21,10 @@ A Dutch social psychologist named Geert Hofstede developed a framework for cross
 - Long-term orientation vs. short-term orientation (LTO)
 - Indulgence vs. restraint (IND)
 
-<figure>
-    <img src="/images/6-dimensions-hofstedes-cultural-dimensions-theory.png"
+<img src="/images/6-dimensions-hofstedes-cultural-dimensions-theory.png"
          alt="Diagram of Hofstede's cultural dimensions"
-         width=60%>
-    <figcaption>Hofstede's cultural dimensions. Source: iEduNote.com</figcaption>
-</figure>
+         width=60%>  
+*Hofstede's cultural dimensions. Source: iEduNote.com*
 
 ## Personal experiences with cultural differences
 
