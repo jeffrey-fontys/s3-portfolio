@@ -6,7 +6,7 @@ For course: S-DB-IPS3 and S-DB-GPS3
 Class: S3-DB01  
 Coaches: Bert Aarts, Samuil Angelov and Leon van Bokhorst  
 Date: 6 April 2022  
-Version: 2  
+Version: 3  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
 
@@ -17,6 +17,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 |---------|---------|
 | 1 | Initial version. |
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
+| 3 | * Added [Agile methods analysis](#33-agile-methods) |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -26,8 +27,9 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 - [3. Research](#3-research)
   - [3.1. Cultural differences](#31-cultural-differences)
   - [3.2. Ethics](#32-ethics)
-  - [3.3. Security](#33-security)
-  - [3.4. Research 4](#34-research-4)
+  - [3.3. Agile methods](#33-agile-methods)
+  - [3.4. Security](#34-security)
+  - [3.5. Research 4](#35-research-4)
 - [4. Individual Project (CollectiCats)](#4-individual-project-collecticats)
   - [4.1. Software design](#41-software-design)
 - [5. Group Project (Eeventify)](#5-group-project-eeventify)
@@ -67,11 +69,16 @@ For the subject of cultural differences I have done some research about what cul
 
 Placeholder
 
-### 3.3. Security
+### 3.3. Agile methods
+
+Software development is often supported by Agile practices. During this semester I have used an Agile method called Scrum for my individual project and my group project. But there are many other Agile methods available to use and each has their own use cases and benefits. I have performed some research into the definition of Agile, the different methods that are available, and how it is used in practice. This product helps prove my proficiency at learning outcome 3: Agile method.
+[📄 View file](/research/agile_methods.md)
+
+### 3.4. Security
 
 Placeholder
 
-### 3.4. Research 4
+### 3.5. Research 4
 
 Placeholder
 
@@ -94,6 +101,8 @@ A good software engineer can quickly adapt to and utilize new technologies, and 
 - [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/) by Spring
 - [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/) by Spring
 
+[CollectiCats back end repository](https://github.com/jeffrey-fontys/collecticats) | [CollectiCats front end repository](https://github.com/jeffrey-fontys/collecticats-front)
+
 ### 4.1. Software design
 
 For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.
@@ -104,9 +113,11 @@ For the CollectiCats application I have made a user stories, an entity relation 
 
 Eeventify is the name of the group project developed in collaboration with two teams from the Oulu University of Applied Sciences (OAMK) located in Oulu, Finland. It is an application that helps people find others who share similar interests to theirs and provides a platform to organize, discover and join events (online *and* in person) that correspond to their interests.
 
+[Eeventify repositories](https://github.com/orgs/Eeventify/repositories)
+
 ### 5.1. Software design
 
-For the CollectiCats application I have made an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.  
+For the CollectiCats application I have made an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.
 
 [⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/eeventify/software_design.md)
 
