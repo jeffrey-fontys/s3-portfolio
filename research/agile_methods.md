@@ -11,6 +11,7 @@ Version: 1
 Agile within the world of software development defines a set of frameworks and practices that attempt to improve the way software developers can work in an uncertain and turbulent environment. It is based on the Agile Manifesto which defines 12 principles that form the core values of Agile software development. It provides tools that allow developers to self-organize themselves in cross-functional teams.
 
 Key agile concepts are:
+
 - User Stories
 - Daily Meetings
 - Personas
@@ -20,6 +21,8 @@ Key agile concepts are:
 - Milestone Retrospective
 
 ## What Agile methods exist?
+
+A large number of Agile software development methods exist. A few notable methods are listed below:
 
 - Adaptive software development (ASD)
 - Agile modeling
@@ -36,23 +39,37 @@ Key agile concepts are:
 - Scrumban
 - Scaled agile framework - SAFe
 
-## SCRUM
+## Scrum
 
 Scrum is a popular Agile method and the one that I personally have the most experience with, as it is the recommended method within the course that I am following. It defines a specific flow of work whereby teams work in time-boxed iterations called *sprints*. These are generally periods of two weeks, sometimes three.
+
+### Scrum process
+
+A Scrum project starts with formulating user stories. Once these have been formulated they are put in a **product backlog** and are assigned a number of *story points*—these represent the expected amount of effort required to complete the user story. At the start of a sprint a **sprint planning** is performed. During this session a number of user stories are selected to be worked on during the sprint and these user stories are then placed in the **sprint backlog**. During the sprint a **daily scrum** (sometimes referred to as a *stand-up*) is held each day at a set time and location. This is a time-boxed session (approximately 15 minutes), facilitated by an appointed *Scrum master/leader*, where team members report on their progress, any problems or issues encountered, and the task(s) they intend to work on during the course of the day. During the course of the sprint work is put into one or more **increments**. These are concrete steps towards the end goal of the project and must be usable, tested and work well together. At the end of a sprint a **sprint review** is held where the completed work gets presented to the stakeholders. This provides an opportunity for the development team to receive feedback, discuss impact of incomplete work and to receive suggestions for upcoming work from the stakeholders. This can also be a good moment to review the user stories in the product backlog and amend, update or re-order them if needed. The last part of a sprint is the **sprint retrospective**. During this session the team reflects on the past sprint(s): what went well and what could be improved in the next sprint. If a large number of points for improvement are found, a selection should be made based on what the team determines are the points with the highest priority. After this step the project is either finished or enters the cycle anew and starts with a new sprint.
 
 ![Diagram about Scrum process](../images/scrum_process.png)
 *Steps of the Scrum process. Source: Scrum.org*
 
-Something about values.
+### Extensions to Scrum
+
+There are also several additional techniques that can be used to augment the Scrum process:
+
+- **Burndown chart:** a chart showing the remaining work in a sprint (usually in the form of total story points) against the time available in a sprint. It includes an ideal progress line sloping down from the start of the sprint to the end and the team can use this to help them remain on schedule by updating it each day and comparing actual and predicted progress.
+- **Definition of done:** Clear definition for when a user story can be considered finished. May include rules relating to unit/integration/regression testing, security requirements/checks, and requirements for proper documentation and code review.
+- **Spike:** a time-boxed period used to research a new concept/technology, create a proof of concept, or a prototype. A spike may or may not produce a tangible outcome. It ends when the time has expired, not necessarily when the objective has been achieved.
+
+### Scrum values
+
+Also part of the Scrum method are a set of five core values: courage, focus, commitment, respect and openness. Commitment to these values by each member of the team is considered important for the successful use of Scrum. Together they help building trust and support the empirical Scrum pillars of transparency, inspection, and adaptation.
 
 ![Diagram about Scrum values](../images/scrum_values.png)
 *The five Scrum values. Source: Scrum.org*
 
-## Method 1
+## Extreme Programming
 
 Text
 
-## Method 2
+## Kanban
 
 Text
 
