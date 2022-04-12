@@ -3,7 +3,7 @@
 Written by: Jeffrey E.G. Derksen  
 For course: S-DB-GPS3  
 Class: S3-DB01  
-Date: Some April 2022  
+Date: 12 April 2022  
 Version: 1  
 
 ## What is Agile?
@@ -22,26 +22,26 @@ Key agile concepts are:
 
 ## What Agile methods exist?
 
-A large number of Agile software development methods exist. A few notable methods are listed below:
+A large number of Agile software development methods exist. A few notable methods are listed below, with the ones explored in this report highlighted in bold:
 
 - Adaptive software development (ASD)
 - Agile modeling
 - Agile unified process (AUP)
 - Disciplined agile delivery
 - Dynamic systems development method (DSDM)
-- Extreme programming
+- **Extreme Programming (XP)**
 - Feature-driven development (FDD)
 - Lean software development
 - Lean startup
-- Kanban
+- **Kanban**
 - Rapid application development (RAD)
-- Scrum
+- **Scrum**
 - Scrumban
 - Scaled agile framework - SAFe
 
 ## Scrum
 
-Scrum is a popular Agile method and the one that I personally have the most experience with, as it is the recommended method within the course that I am following. It defines a specific flow of work whereby teams work in time-boxed iterations called *sprints*. These are generally periods of two weeks, sometimes three.
+Scrum is a popular Agile method and the one that I personally have the most experience with, as it is the recommended method within this course. It defines a specific flow of work whereby teams work in time-boxed iterations called *sprints*. These are generally periods of two weeks, sometimes three.
 
 ### Scrum process
 
@@ -67,11 +67,21 @@ Also part of the Scrum method are a set of five core values: courage, focus, com
 
 ## Extreme Programming
 
-Text
+Extreme Programming (XP) is another well-known agile method with a particular focus on: extensive (unit) testing, pair programming, adding functionality only when needed, simplicity, and frequent communication with the customer. The name comes from the idea that practices that are considered beneficial when developing software are taken to an extreme level, such as frequent code review and rigorous testing.
+
+![Diagram about Extreme Programming](../images/XP-feedback.gif)
+*Feedback loops within Extreme Programming. Source: J. Donovan Wells*
+
+When compared to Scrum, Extreme Programming differs in that it prescribes more specific software development practices and techniques and is therefore really only useful for programmers. Scrum's emphasis lies more on project management and is therefore applicable to manage products of different types. Another difference is that Extreme Programming can be implemented in part and/or modified to suit the needs of the team—there is even a rule for that: "Fix XP when it breaks." Incorporating Scrum on the other hand requires your team to fully embrace it in its entirety and without modification, otherwise—at least according to the official Scrum Guide—you are not using Scrum properly.
 
 ## Kanban
 
-Text
+Kanban, like Scrum, is a project management system designed to improve work across human systems. It places an emphasis on visualizing the workflow in a project. Central to this system is the Kanban board—Kanban being the Japanese word for *signboard*, *billboard*, or *visual signal*—which shows a clear overview of work in all of its stages represented by cards, and work in progress limits for each stage. The overview provides complete transparency within the team—who is working on what, which tasks are available and which tasks are completed. The stage limits make sure that no stage becomes overwhelmed with too many tasks. If a stage has reached its task limit, an existing task has to be completed first before a new one can be put in its place.
+
+![Example of a Kanban board](../images/agile_kanban_board.png)
+*Example of a Kanban board. Source: Atlassian*
+
+When compared to Scrum, Kanban differs in its continuous flow of work, whereas with Scrum work is divided into sprints. There are also no roles required within teams working with Kanban. Changes (such as to-do items or estimates on item/user story duration) can also be introduced at any time whereas with Scrum these changes can only be made during a sprint planning.
 
 ## Agile in practice
 
@@ -84,6 +94,11 @@ Text
 ## Sources
 
 - [Agile Alliance](https://www.agilealliance.org)
-- [Scrum.org](https://www.scrum.org/)
+- [Agile-Process.org](http://www.agile-process.org)
+- [Atlassian - Kanban](https://www.atlassian.com/agile/kanban)
+- [Scrum.org](https://www.scrum.org)
 - [Wikipedia - Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
 - [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
+- [Wikipedia - Extreme programming](https://en.wikipedia.org/wiki/Extreme_programming)
+- [Wikipedia - Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+- [Extreme Programming vs. Scrum: What's the Difference?](https://www.coscreen.co/blog/extreme-programming-vs-scrum-difference)
