@@ -3,7 +3,7 @@
 Written by: Jeffrey E.G. Derksen  
 For course: S-DB-GPS3  
 Class: S3-DB01  
-Date: 12 April 2022  
+Date: 13 April 2022  
 Version: 1  
 
 ## What is Agile?
@@ -82,10 +82,6 @@ Kanban, like Scrum, is a project management system designed to improve work acro
 *Example of a Kanban board. Source: Atlassian*
 
 When compared to Scrum, Kanban differs in its continuous flow of work, whereas with Scrum work is divided into sprints. There are also no roles required within teams working with Kanban. Changes (such as to-do items or estimates on item/user story duration) can also be introduced at any time whereas with Scrum these changes can only be made during a sprint planning.
-
-## Agile in practice
-
-Text
 
 ## Recommendations
 
