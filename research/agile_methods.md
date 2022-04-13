@@ -87,7 +87,7 @@ When compared to Scrum, Kanban differs in its continuous flow of work, whereas w
 
 After researching several different Agile methods I feel there is no single *best* management method or tool that I could recommend. What I would recommend instead is taking elements from several agile methods. For example, Scrum can provide a good base for project management, but it might prove useful to incorporate features from the Kanban method, such as the board and the work in progress limits. There are also several useful practices that can be employed from Extreme Programming, such as frequent code review (as an alternative to pair programming), testing from an early stage, simplicity / only adding needed features, and frequent communication with the customer.
 
-I believe that, with some experimenting and practice, a number of these elements can be implemented together quite well and which combination works best is likely different for each team and each project.
+I believe that, with some experimenting and experience, combinations of these elements and methods can be implemented together quite well and which combination ultimately works best will likely be different for each team and each project.
 
 ## Sources
 
