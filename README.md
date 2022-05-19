@@ -5,7 +5,7 @@ Written by: Jeffrey E.G. Derksen
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
 Coaches: Bert Aarts, Samuil Angelov and Leon van Bokhorst  
-Date: 6 April 2022  
+Date: 19 May 2022  
 Version: 3  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
