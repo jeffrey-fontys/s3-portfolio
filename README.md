@@ -17,7 +17,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 |---------|---------|
 | 1 | Initial version. |
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
-| 3 | * Added [Agile methods analysis](#33-agile-methods) |
+| 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods) |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -67,7 +67,8 @@ For the subject of cultural differences I have done some research about what cul
 
 ### 3.2. Ethics
 
-Placeholder
+As a software engineer you need to be aware of the different ethical aspects, principles, and practices within the field. You should ensure that your software meets accessibility standards, that it respects a user's privacy, and that it is secure, amongst other things. In order to achieve this you have to critically evaluate your software design in all stages of its development, starting off with an ethically sound design and adjust it when necessary. I have done research on this subject and performed an ethical analysis of my group project and individual project in order to increase my proficiency at learning outcome 5: cultural differences and ethics.  
+[📄 View file](/research/ethics_analysis.md)
 
 ### 3.3. Agile methods
 
