@@ -17,7 +17,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 |---------|---------|
 | 1 | Initial version. |
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
-| 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
+| 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 4.2](#42-cicd) about CI/CD for individual project<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -32,6 +32,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [3.5. Research 4](#35-research-4)
 - [4. Individual Project (CollectiCats)](#4-individual-project-collecticats)
   - [4.1. Software design](#41-software-design)
+  - [4.2. CI/CD](#42-cicd)
 - [5. Group Project (Eeventify)](#5-group-project-eeventify)
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
@@ -68,7 +69,7 @@ For the subject of cultural differences I have done some research about what cul
 
 ### 3.2. Ethics
 
-As a software engineer you need to be aware of the different ethical aspects, principles, and practices within the field. You should ensure that your software meets accessibility standards, that it respects a user's privacy, and that it is secure, amongst other things. In order to achieve this you have to critically evaluate your software design in all stages of its development, starting off with an ethically sound design and adjust it when necessary. I have done research on this subject and performed an ethical analysis of my group project and individual project in order to increase my proficiency at learning outcome 5: cultural differences and ethics.  
+As a software engineer you need to be aware of the different ethical aspects, principles, and practices within the field. You should ensure that your software meets accessibility standards, that it respects a user's privacy, and that it is secure, amongst other things. In order to achieve this you have to critically evaluate your software design in all stages of its development, starting off with an ethically sound design and adjust it when necessary. I have done research on this subject and performed an ethical analysis of my group project and individual project in order to increase my proficiency at learning outcome 5: Cultural differences and ethics.  
 [📄 View file](/research/ethics_analysis.md)
 
 ### 3.3. Agile methods
@@ -95,7 +96,7 @@ Inspired by: [CryptoKitties](https://www.cryptokitties.co/)
 CollectiCats is my individual project and is a web based collecting/trading game where players can collect virtual cats and trade them with each other. These cats have unique properties as a result of their genes. Try to collect as many special and rare cats as you can!
 
 I have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help me manage this process. I have chosen to divide the project into five sprints of three weeks each.  
-[View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-s3-individual)
+[🌐 View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-s3-individual)
 
 A good software engineer can quickly adapt to and utilize new technologies, and it is something I personally really enjoy as well. After using C#/.NET for the majority of the last two semesters and also making use of it for the [Eeventify](#5-group-project-eeventify) application, I have chosen to write the back-end for the CollectiCats application in Java with the Spring framework. As I had no prior experience with writing code with Java, I followed a number of tutorials and guides to get myself acquainted with the language, the framework and the microservices architecture. These are the following:
 
@@ -103,13 +104,29 @@ A good software engineer can quickly adapt to and utilize new technologies, and 
 - [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/) by Spring
 - [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/) by Spring
 
-[CollectiCats back end repository](https://github.com/jeffrey-fontys/collecticats) | [CollectiCats front end repository](https://github.com/jeffrey-fontys/collecticats-front)
+[📁 CollectiCats back-end repository](https://github.com/jeffrey-fontys/collecticats) | [📁 CollectiCats front-end repository](https://github.com/jeffrey-fontys/collecticats-front)
 
 ### 4.1. Software design
 
-For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document for CollectiCats.
+For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document for CollectiCats. This section is part of proving my proficiency at learning outcome 6: Requirements and Design.
 
-[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/collecticats/software_design.md)
+[📄 View file](/collecticats/software_design.md)
+
+### 4.2. CI/CD
+
+I applied the knowledge that I acquired while setting up the continuous integration for Eeventify to set up CI/CD for my individual project as well. Both repositories use two workflows: a Main workflow and a Nightly workflow. The Main workflow runs whenever any code is pushed to the main branch of the repository, or when a pull request is created. It performs the following actions:
+- Builds the projects and runs unit tests;
+- Builds Docker images for each project/service;
+- Publishes the images to DockerHub.
+
+The Nightly workflow runs every weekday night on the development branch and checks if the project builds correctly and runs any available tests.
+
+![Screenshot of CI/CD workflow for CollectiCats](images/collecticats_ci.png)  
+*Example of a CI/CD workflow run of CollectiCats' back end.*
+
+The experience that I gained while working on this improved my proficiency at learning outcome 4: CI/CD.
+
+[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file Main](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/maven.yml) | [📄 View file Nightly](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/nightly.yml)
 
 ## 5. Group Project (Eeventify)
 
@@ -119,9 +136,9 @@ Eeventify is the name of the group project developed in collaboration with two t
 
 ### 5.1. Software design
 
-Our team has made an entity relation model and a software architecture diagram for Eeventify. This documentation has evolved throughout the development process in response to changes in requirements and new insights. A more detailed exploration of this subject can be found in the software design document for Eeventify.
+Our team has made an entity relation model and a software architecture diagram for Eeventify. This documentation has evolved throughout the development process in response to changes in requirements and new insights. A more detailed exploration of this subject can be found in the software design document for Eeventify. This section is part of proving my proficiency at learning outcome 6: Requirements and Design.
 
-[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/eeventify/software_design.md)
+[📄 View file](/eeventify/software_design.md)
 
 ### 5.2. CI/CD
 
@@ -141,20 +158,26 @@ This workflow runs on each push to the main branch and for each pull request. So
 
 I believe that I learned a lot about CI/CD while setting these workflows up for the Eeventify project and that this helps prove my proficiency at learning outcome 4: CI/CD.
 
-[⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](https://github.com/Eeventify/user-service/blob/main/.github/workflows/main.yml)
+[📄 View file](https://github.com/Eeventify/user-service/blob/main/.github/workflows/main.yml)
 
 ### 5.3. Software quality
 
-In order to guarantee good software quality and performance for the Eeventify application, I have written a number of tests with [Postman](https://www.postman.com/). These tests are scheduled to run every weekday and test every endpoint of the API for availability and correct response. In case Postman runs into any errors during such a run, it notifies my colleague who manages the server, and me via email. This way any malfunctions can be detected and resolved quickly.
+In order to guarantee good software quality and performance for the Eeventify application, I have written a number of tests with [Postman](https://www.postman.com/). I had never used Postman before so I decided to follow a couple of video tutorials and I looked up entries in the [Postman documentation](https://learning.postman.com/docs/getting-started/introduction) whenever I ran into issues or when I did not know how to use a particular feature of the software.
+
+The tests I have written are scheduled to run every weekday and test every endpoint of the API for availability and correct response. In case Postman runs into any errors during such a run, it notifies both me and my colleague who manages the server via email. This way any malfunctions can be detected and resolved quickly.
 
 ![Screenshot showing Postman test of Event API](images/eeventify_postman_test.png)  
 ![Screenshot showing Postman monitor results](images/eeventify_postman_monitor.png)  
-*Screenshots showing a request test and a monitor run result for the Event service in Postman*
+*Screenshots showing a request test and a monitor run result for the Event service in Postman.*
 
-In addition to the tests above, I have made a [status page](https://eeventify.github.io/main/status) where users and developers can view the current status of every Eeventify back-end service. It sends a request to each service and displays a status message to the user based on the response (or absence thereof).
+In addition to the tests above, I have made a [status page](https://eeventify.github.io/main/status) where users and developers can view the current status of every Eeventify back-end service. It sends a request to each service and displays a status message to the user based on the response it receives (or absence thereof).
 
 ![Status page for Eeventify services](images/eeventify_status.png)  
-*Eeventify status page*
+*Eeventify status page.*
+
+These activities have improved my experience with and skill at learning outcome 2: Software quality. 
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 6. Reflection
 
