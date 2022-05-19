@@ -17,7 +17,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 |---------|---------|
 | 1 | Initial version. |
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
-| 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods) |
+| 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -35,6 +35,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 - [5. Group Project (Eeventify)](#5-group-project-eeventify)
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
+  - [5.3. Software quality](#53-software-quality)
 - [6. Reflection](#6-reflection)
 
 ## 1. Introduction
@@ -106,7 +107,7 @@ A good software engineer can quickly adapt to and utilize new technologies, and 
 
 ### 4.1. Software design
 
-For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.
+For the CollectiCats application I have made a user stories, an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document for CollectiCats.
 
 [⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/collecticats/software_design.md)
 
@@ -114,11 +115,11 @@ For the CollectiCats application I have made a user stories, an entity relation 
 
 Eeventify is the name of the group project developed in collaboration with two teams from the Oulu University of Applied Sciences (OAMK) located in Oulu, Finland. It is an application that helps people find others who share similar interests to theirs and provides a platform to organize, discover and join events (online *and* in person) that correspond to their interests.
 
-[Eeventify repositories](https://github.com/orgs/Eeventify/repositories)
+[📁 Eeventify repositories](https://github.com/orgs/Eeventify/repositories)
 
 ### 5.1. Software design
 
-For the CollectiCats application I have made an entity relation model and a software architecture diagram. These diagrams/models and related information can be found in the software design document.
+Our team has made an entity relation model and a software architecture diagram for Eeventify. This documentation has evolved throughout the development process in response to changes in requirements and new insights. A more detailed exploration of this subject can be found in the software design document for Eeventify.
 
 [⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](/eeventify/software_design.md)
 
@@ -129,7 +130,7 @@ For the Eeventify project I took up development of the CI/CD workflow together w
 With these tools I have written a workflow for each Eeventify service that:
 - Builds the project and runs unit tests;
 - Generates a OpenAPI/Swagger documentation file;
-- Pushes the generated documentation file to the repository containing all documentation files;
+- Pushes the generated documentation file to the repository containing all documentation files (view the documentation page [here](https://eeventify.github.io/main/));
 - Builds a Docker image;
 - Publishes the image to DockerHub.
 
@@ -141,6 +142,19 @@ This workflow runs on each push to the main branch and for each pull request. So
 I believe that I learned a lot about CI/CD while setting these workflows up for the Eeventify project and that this helps prove my proficiency at learning outcome 4: CI/CD.
 
 [⬆️ Back to Table of Contents](#table-of-contents) | [📄 View file](https://github.com/Eeventify/user-service/blob/main/.github/workflows/main.yml)
+
+### 5.3. Software quality
+
+In order to guarantee good software quality and performance for the Eeventify application, I have written a number of tests with [Postman](https://www.postman.com/). These tests are scheduled to run every weekday and test every endpoint of the API for availability and correct response. In case Postman runs into any errors during such a run, it notifies my colleague who manages the server, and me via email. This way any malfunctions can be detected and resolved quickly.
+
+![Screenshot showing Postman test of Event API](images/eeventify_postman_test.png)  
+![Screenshot showing Postman monitor results](images/eeventify_postman_monitor.png)  
+*Screenshots showing a request test and a monitor run result for the Event service in Postman*
+
+In addition to the tests above, I have made a [status page](https://eeventify.github.io/main/status) where users and developers can view the current status of every Eeventify back-end service. It sends a request to each service and displays a status message to the user based on the response (or absence thereof).
+
+![Status page for Eeventify services](images/eeventify_status.png)  
+*Eeventify status page*
 
 ## 6. Reflection
 
