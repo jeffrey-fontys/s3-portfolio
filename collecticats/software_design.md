@@ -57,27 +57,22 @@ Each service has their own database and if they need data from outside their dom
 ## 4. API Endpoints
 
 The CollectiCats client application communicates with the back-end services through the following endpoints:
-```
-/users          GET          -- Get collection of users
-                POST         -- Create a new user
 
-
-/users/{id}     GET          -- Get specific user information
-                PUT          -- Overwrite the user record with new information
-                PATCH        -- Overwrite specific fields in a user record
-                DELETE       -- Delete the specified user record
-
-/cats           GET          -- Get collection of cats
-                POST         -- Create a new cat
-
-/cats/{id}      GET          -- Get specific cat information
-                PUT          -- Overwrite the cat record with new information
-                PATCH        -- Overwrite specific fields in a cat record
-                DELETE       -- Delete the specified cat record
-
-/breed              -- to be determined
-
-/trade              -- to be determined
-```
+| Path | Method | Description |
+|------|--------|-------------|
+| /users | GET | Get collection of users |
+|        | POST | Create a new user |
+| /users/{id} | GET | Get specific user information |
+|             | PUT | Overwrite the user record with new information |
+|             | PATCH | Overwrite specific fields in a user record |
+|             | DELETE | Delete the specified user record |
+| /cats | GET | Get collection of cats |
+|       | POST | Create a new cat |
+| /cats/{id} | GET | Get specific cat information |
+|            | PUT | Overwrite the cat record with new information |
+|            | PATCH | Overwrite specific fields in a cat record |
+|            | DELETE | Delete the specified cat record |
+| /breed |      | to be determined |
+| /trade |      | to be determined |
 
 [⬆️ Back to Table of Contents](#table-of-contents)
