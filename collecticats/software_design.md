@@ -58,11 +58,22 @@ Each service has their own database and if they need data from outside their dom
 
 The CollectiCats client application communicates with the back-end services through the following endpoints:
 ```
-/user               -- Get collection of users
-/user/{id}          -- Get specific user
+/users          GET          -- Get collection of users
+                POST         -- Create a new user
 
-/cats               -- Get collection of cats
-/cats/{id}          -- Get specific cat
+
+/users/{id}     GET          -- Get specific user information
+                PUT          -- Overwrite the user record with new information
+                PATCH        -- Overwrite specific fields in a user record
+                DELETE       -- Delete the specified user record
+
+/cats           GET          -- Get collection of cats
+                POST         -- Create a new cat
+
+/cats/{id}      GET          -- Get specific cat information
+                PUT          -- Overwrite the cat record with new information
+                PATCH        -- Overwrite specific fields in a cat record
+                DELETE       -- Delete the specified cat record
 
 /breed              -- to be determined
 
