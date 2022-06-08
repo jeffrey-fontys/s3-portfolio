@@ -13,8 +13,6 @@
 
 A number of user stories have been formulated to describe and help verify the intended functionality of the CollectiCats application.
 
-* As a player I want to be able to register an account, so that I don't lose my progress.
-* As a player I want to be able to login to my account, so that I have access to my progress.
 * As a player I want to be able to own several virtual cats, because collecting things is fun and cats are likable creatures.
 * As a player I want to be able to see an overview of the cats I own, so that I know which cats I have and can interact with them.
 * As a player I want to be able to see detailed information about a cat of my choosing, so that I can make an informed decision with regards to breeding and/or trading.
