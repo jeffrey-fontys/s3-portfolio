@@ -127,7 +127,8 @@ The Nightly workflow runs every weekday night on the development branch and chec
 
 The experience that I gained while working on this improved my proficiency at learning outcome 4: CI/CD.
 
-[📄 View file Main](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/maven.yml) | [📄 View file Nightly](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/nightly.yml)  
+[📄 View file Main](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/maven.yml) | [📄 View file Nightly](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/nightly.yml)
+
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 5. Group Project (Eeventify)
