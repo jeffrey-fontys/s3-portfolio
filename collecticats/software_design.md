@@ -38,17 +38,19 @@ A player can own one or more virtual cats, the details of which are stored in th
 
 ![Software Architecture diagram](/images/architecture_collecticats_v2.png)
 
-The CollectiCats application has been designed as a microservices architecture. This means the application is comprised of multiple loosely coupled and collaborating services. Advantages of this approach are that it improves maintainability and testability, is independently deployable and scalable and it facilitates easy integration of multiple technologies (for example a combination of SQL and NoSQL databases). Communication between front-end and back-end will be performed through the REST protocol.
+The CollectiCats application has been designed as a microservices architecture. This means the application is comprised of multiple loosely coupled and collaborating services. Advantages of this approach are that it improves maintainability and testability, is independently deployable and scalable and it facilitates easy integration of multiple technologies (for example a combination of SQL and NoSQL databases). These advantages do come at a cost though, as this architecture pattern also increases complexity, consumes more resources, and requires complex orchestration to operate. For this application, a monolithic architecture might have performed equally well and would have likely been easier to develop, but the learning outcomes mandated a distributed software architecture and a microservices architecture seemed like a well fitting candidate.
 
-CollectiCats consists of the following services:
+CollectiCats consists of the following microservices:
 * User Service
 * Cat Service
 * Breeding Service
 * Trading Service
 
-An API gateway is utilized so that the client application does not have to communicate with all the different services directly but can do so through a single interface. This also makes it easier to make changes to the architecture at a later stage, as the client application has no knowledge of what happens "behind" the gateway. The gateway makes use of a discovery server to find the current location of the services.
+An API gateway is utilized so that the client application does not have to communicate with all the different services directly but can do so through a single interface. This also makes it easier to make changes to the architecture at a later stage, as the client application has no knowledge of what happens "behind" the gateway. The gateway makes use of a discovery server to find the current location of the services and communication is performed with the REST protocol.
 
-Each service has their own database and if they need data from outside their domain to perform their function, they will contact the relevant service and request the needed data through them.
+Each service has their own database and if they need data from outside their domain to perform their function, they will contact the relevant service and request the needed data through them. In practice, most data gets aggregated in the front end part of the application. If I were to develop this application further in the future it might be possible to configure the API gateway to perform some or all of this aggregation.
+
+The type of database system used is MongoDB. MongoDB is a NoSQL, document-oriented database program. Advantages of this system is that it is very easy to set up and to make changes to the structure during the development process, because a document does not have to have a predefined structure and documents can even have varying amounts and types of properties. It is also very easy to scale up and down for large scale applications, because it scales horizontally. However, it is generally considered less mature than SQL and when it comes to storing large amounts of data it can have issues with consistency and reliability. For my application these drawbacks are not particularly relevant because of the limited scale, and I wanted to gain some more experience working with a NoSQL database system as I have previously worked primarily with SQL based systems.
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
