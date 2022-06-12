@@ -131,6 +131,8 @@ The experience that I gained while working on this improved my proficiency at le
 
 ## 5. Group Project (Eeventify)
 
+![Eeventify logo](images/eeventify_logo.png)
+
 Eeventify is the name of the group project developed in collaboration with two teams from the Oulu University of Applied Sciences (OAMK) located in Oulu, Finland. It is an application that helps people find others who share similar interests to theirs and provides a platform to organize, discover and join events (online *and* in person) that correspond to their interests.
 
 [📁 Eeventify repositories](https://github.com/orgs/Eeventify/repositories)
