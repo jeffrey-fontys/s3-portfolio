@@ -33,6 +33,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 - [4. Individual Project (CollectiCats)](#4-individual-project-collecticats)
   - [4.1. Software design](#41-software-design)
   - [4.2. CI/CD](#42-cicd)
+  - [Software Quality](#software-quality)
 - [5. Group Project (Eeventify)](#5-group-project-eeventify)
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
@@ -128,6 +129,13 @@ The Nightly workflow runs every weekday night on the development branch and chec
 The experience that I gained while working on this improved my proficiency at learning outcome 4: CI/CD.
 
 [📄 View file Main](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/maven.yml) | [📄 View file Nightly](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/nightly.yml)
+
+### Software Quality
+
+One of the ways to monitor and improve code quality is to implement static code analysis into your application. I have chosen to do this with SonarCloud. This platform offers easy integration with GitHub and checks for a plethora of possible quality issues, such as: bugs, vulnerabilities, code smells, test coverage, and duplication of code. It checks my code before it is merged into the main branch of my repository and thus makes it very easy for me to fix any of the aforementioned quality issues before they get pushed out to production.
+
+![Screenshot of SonarCloud static code analysis overview](images/sonarcloud_overview.png)  
+*Overview of static code analysis for some of my project's services in SonarCloud.*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
