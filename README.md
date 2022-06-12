@@ -5,8 +5,8 @@ Written by: Jeffrey E.G. Derksen
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
 Coaches: Bert Aarts, Samuil Angelov and Leon van Bokhorst  
-Date: 19 May 2022  
-Version: 3  
+Date: 13 June 2022  
+Version: 4  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
 
@@ -29,7 +29,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [3.2. Ethics](#32-ethics)
   - [3.3. Agile methods](#33-agile-methods)
   - [3.4. Security](#34-security)
-  - [3.5. Research 4](#35-research-4)
+  - [3.5. Optimizing for Outsourcing](#35-optimizing-for-outsourcing)
 - [4. Individual Project (CollectiCats)](#4-individual-project-collecticats)
   - [4.1. Software design](#41-software-design)
   - [4.2. CI/CD](#42-cicd)
@@ -81,9 +81,10 @@ Software development is often supported by Agile practices. During this semester
 
 Placeholder
 
-### 3.5. Research 4
+### 3.5. Optimizing for Outsourcing
 
-Placeholder
+A software engineer seldom works on a project alone, and the software you develop might be used by others as a dependency or becomes otherwise incorporated into their projects. In order to ensure this will be a smooth, effective process, your software needs to be clear, understandable, and well documented. In this research report, I explored methods to ensure my software meets these requirements and performed an experiment with a fellow student to test the effectiveness of these measures. This research relates to learning outcomes 2 and 8: Software Quality and Professional.  
+[📄 View file](/research/outsourcing.md)
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
