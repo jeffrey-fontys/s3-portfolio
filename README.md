@@ -18,6 +18,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 | 1 | Initial version. |
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
 | 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 4.2](#42-cicd) about CI/CD for individual project<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
+| 4 | * Added [Outsourcing research](#35-optimizing-for-outsourcing)<br>* Added IP [Software quality](#43-software-quality)<br>* Improved IP [Software design](#41-software-design)<br>* Improved IP [CI/CD](#42-cicd) |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -33,7 +34,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 - [4. Individual Project (CollectiCats)](#4-individual-project-collecticats)
   - [4.1. Software design](#41-software-design)
   - [4.2. CI/CD](#42-cicd)
-  - [Software Quality](#software-quality)
+  - [4.3. Software Quality](#43-software-quality)
 - [5. Group Project (Eeventify)](#5-group-project-eeventify)
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
@@ -95,7 +96,10 @@ A software engineer seldom works on a project alone, and the software you develo
 
 Inspired by: [CryptoKitties](https://www.cryptokitties.co/)
 
-CollectiCats is my individual project and is a web based collecting/trading game where players can collect virtual cats and trade them with each other. These cats have unique properties as a result of their genes. Try to collect as many special and rare cats as you can!
+CollectiCats is my individual project and is a web based collecting/trading game where players can collect virtual cats and trade them with each other. These cats have unique properties as a result of their genes. The goal is to try and collect as many special and rare cats as you can!
+
+![Screenshot of overview of owned cats on CollectiCats front end web page](images/collecticats_overview.png)  
+*Overview of owned cats on CollectiCats front end web page.*
 
 I have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help me manage this process. I have chosen to divide the project into five sprints of three weeks each.  
 [🌐 View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-s3-individual)
@@ -116,26 +120,45 @@ For the CollectiCats application I have made a user stories, an entity relation 
 
 ### 4.2. CI/CD
 
-I applied the knowledge that I acquired while setting up the continuous integration for Eeventify to set up CI/CD for my individual project as well. Both repositories use two workflows: a Main workflow and a Nightly workflow. The Main workflow runs whenever any code is pushed to the main branch of the repository, or when a pull request is created. It performs the following actions:
-- Builds the projects and runs unit tests;
-- Builds Docker images for each project/service;
-- Publishes the images to DockerHub.
+I applied the knowledge that I acquired while setting up the continuous integration for the group project to set up CI/CD for my individual project as well. Both repositories use two workflows: a Main workflow and a Nightly workflow. The Main workflow runs whenever any code is pushed to the main branch of the repository, or when a pull request is created. It performs the following actions:
 
-The Nightly workflow runs every weekday night on the development branch and checks if the project builds correctly and runs any available tests.
+- Builds each service of the project;
+- Builds Docker images for each service;
+- Publishes the images to DockerHub;
+- Performs integration tests.
+
+The Nightly workflow runs every weekday night on the development branch and checks if the project builds correctly. The code on the development branch is subject to frequent changes which might introduce bugs and errors that are serious enough to prevent the project from building. This nightly check helps detect serious problems early on.
 
 ![Screenshot of CI/CD workflow for CollectiCats](images/collecticats_ci.png)  
 *Example of a CI/CD workflow run of CollectiCats' back end.*
 
-The experience that I gained while working on this improved my proficiency at learning outcome 4: CI/CD.
+I have written a docker-compose file for easily and quickly deploying the back end on a local system or self-hosted server. This file and instructions on how to use it can be found in the [CollectiCats back end repository](https://github.com/jeffrey-fontys/collecticats).
+
+Working on the CI/CD workflow for my individual project has improved my proficiency at and experience with learning outcome 4: CI/CD.
 
 [📄 View file Main](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/maven.yml) | [📄 View file Nightly](https://github.com/jeffrey-fontys/collecticats/blob/main/.github/workflows/nightly.yml)
 
-### Software Quality
+### 4.3. Software Quality
 
-One of the ways to monitor and improve code quality is to implement static code analysis into your application. I have chosen to do this with SonarCloud. This platform offers easy integration with GitHub and checks for a plethora of possible quality issues, such as: bugs, vulnerabilities, code smells, test coverage, and duplication of code. It checks my code before it is merged into the main branch of my repository and thus makes it very easy for me to fix any of the aforementioned quality issues before they get pushed out to production.
+In order to guarantee good software quality and performance for the CollectiCats back end application, I have written a number of integration tests with [Postman](https://www.postman.com/). These tests are scheduled to run every time a pull request is opened on the CollectiCats back end repository in GitHub. I have decided to mainly implement integration tests in this project, because the individual back end services contain hardly any custom logic, instead relying mostly on established frameworks. Therefore writing unit tests seemed rather superfluous in this instance. Integration tests allow me to verify that my endpoints respond as they should and that all the services are functional and capable of communicating with each other when run in Docker Compose set-up.
+
+[🌐 View CollectiCats workspace on Postman](https://www.postman.com/jeffrey-fontys/workspace/collecticats)
+
+![Screenshot of a Postman test for the CollectiCats back end](images/collecitcats_postman.png)  
+*A Postman test for the CollectiCats back end.*
+
+![Screenshot of a successful integration test run](images/collecticats_int_tests.png)  
+*Result of a successful integration test run.*
+
+Another way to safeguard and improve software quality is to implement static code analysis into your application. I have chosen to do this with SonarCloud. This platform offers easy integration with GitHub and checks for a plethora of possible quality issues, such as: bugs, vulnerabilities, code smells, test coverage, and duplication of code. It checks my code before it is merged into the main branch of my repository and thus makes it very easy for me to fix any of the aforementioned quality issues before they get pushed out to production.
 
 ![Screenshot of SonarCloud static code analysis overview](images/sonarcloud_overview.png)  
 *Overview of static code analysis for some of my project's services in SonarCloud.*
+
+![Screenshot of SonarCloud static code analysis on Cat service](images/sonarcloud_cat_status.png)  
+*Static code analysis with SonarCloud helped me to solve four quality issues present within my cat-service code.*
+
+Writing these tests and implementing SonarCloud into my CI/CD workflow has improved my proficiency at and experience with learning outcome 2: Software quality.
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -175,9 +198,11 @@ I believe that I learned a lot about CI/CD while setting these workflows up for 
 
 ### 5.3. Software quality
 
-In order to guarantee good software quality and performance for the Eeventify application, I have written a number of tests with [Postman](https://www.postman.com/). I had never used Postman before so I decided to follow a couple of video tutorials and I looked up entries in the [Postman documentation](https://learning.postman.com/docs/getting-started/introduction) whenever I ran into issues or when I did not know how to use a particular feature of the software.
+In order to guarantee good software quality and performance for the Eeventify application, I have written a number of integration tests with [Postman](https://www.postman.com/). I had never used Postman before so I decided to follow a couple of video tutorials and I looked up entries in the [Postman documentation](https://learning.postman.com/docs/getting-started/introduction) whenever I ran into issues or when I did not know how to use a particular feature of the software.
 
 The tests I have written are scheduled to run every weekday and test every endpoint of the API for availability and correct response. In case Postman runs into any errors during such a run, it notifies both me and my colleague who manages the server via email. This way any malfunctions can be detected and resolved quickly.
+
+[🌐 View Eeventify workspace on Postman](https://www.postman.com/jeffrey-fontys/workspace/eeventify)
 
 ![Screenshot showing Postman test of Event API](images/eeventify_postman_test.png)  
 ![Screenshot showing Postman monitor results](images/eeventify_postman_monitor.png)  
