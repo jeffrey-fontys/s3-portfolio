@@ -52,15 +52,14 @@ With the information I have discovered in the previous step, I have worked on im
 
 I've written a task description for Robin, so that it is clear to him what I expect him to produce during this outsourcing experiment. Besides a short description about the task, I have included a list of functionality that the proof of concept should be able to provide.
 
-```
-CollectiCats Front End Proof of Concept
+> CollectiCats Front End Proof of Concept
+> 
+> Task description: Please develop a front end proof of concept for the CollectiCats application capable of providing the functionality listed below. The back end repository should contain all the documentation you need to get started. You're free to choose which technologies you use to develop the proof of concept, as long as it is able to communicate through REST API calls with the back end application.
+> 
+> The proof of concept should be able to provide the following functionality:
+> - Connect to the CollectiCats back end through REST API calls
+> - Fetch all Cats from the back end and display them on your front end webpage
 
-Task description: Please develop a front end proof of concept for the CollectiCats application capable of providing the functionality listed below. The back end repository should contain all the documentation you need to get started. You're free to choose which technologies you use to develop the proof of concept, as long as it is able to communicate through REST API calls with the back end application.
-
-The proof of concept should be able to provide the following functionality:
-- Connect to the CollectiCats back end through REST API calls
-- Fetch all Cats from the back end and display them on your front end webpage
-```
 
 ### Documentation
 
