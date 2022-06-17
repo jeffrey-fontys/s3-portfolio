@@ -4,8 +4,8 @@
 Written by: Jeffrey E.G. Derksen  
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
-Coaches: Bert Aarts, Samuil Angelov and Leon van Bokhorst  
-Date: 16 June 2022  
+Coaches: Bert Aarts, Samuil Angelov, Leon van Bokhorst, Timo Hermans, and Jean Paul Ligthart
+Date: 19 June 2022  
 Version: 4  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
@@ -43,7 +43,9 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 
 ## 1. Introduction
 
-This document serves as the Reader's Guide for my semester 3 portfolio of the bachelor's program of IT from Fontys University of Applied Sciences. The portfolio contains the products I have developed during the semester and with which I prove that I have gained sufficient knowledge to fulfil the requirements set in the learning outcomes. This guide provides a brief summary of each product and section, and points the reader towards the files which contain the fully worked-out versions of the subject.
+This document serves as the Reader's Guide for my semester 3 portfolio of the bachelor's program of Information Technology from Fontys University of Applied Sciences. The portfolio contains the products I have developed during the semester and with which I prove that I have gained sufficient knowledge to fulfil the requirements set in the learning outcomes. This guide provides a brief summary of each product and section, and points the reader towards the files which contain the fully worked-out versions of the subject.
+
+This document is divided into six sections, including this introduction. In the second section, you will find a detailed description of each learning outcome and what knowledge is required to show your proficiency at it. In the third section, I have provided short descriptions for and links to each research report that I have written this semester. The fourth section is about my individual project, what it is about and how it has been designed and developed. In section five, you will find similar information about the group project, as well as my specific contributions to the project. And at the very end of this document you will come across section six, which contains my reflection on my learning process during the semester.
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -142,7 +144,7 @@ Working on the CI/CD workflow for my individual project has improved my proficie
 
 ### 4.3. Software Quality
 
-In order to guarantee good software quality and performance for the CollectiCats back end application, I have written a number of integration tests with [Postman](https://www.postman.com/). These tests are scheduled to run every time a pull request is opened on the CollectiCats back end repository in GitHub. I have decided to mainly implement integration tests in this project, because the individual back end services contain hardly any custom logic, instead relying mostly on established frameworks. Therefore writing unit tests seemed rather superfluous in this instance. Integration tests allow me to verify that my endpoints respond as they should and that all the services are functional and capable of communicating with each other when run in Docker Compose set-up.
+In order to guarantee good software quality and performance for the CollectiCats back end application, I have written a number of integration tests with [Postman](https://www.postman.com/). These tests send HTTP requests to the back-end API endpoints and check if the response is equal to the expected response. The tests are scheduled to run every time a pull request is opened on the CollectiCats back end repository in GitHub. I have decided to mainly implement integration tests in this project, because the individual back end services contain hardly any custom logic, instead relying mostly on established frameworks. Therefore writing unit tests seemed rather superfluous in this instance. Integration tests allow me to verify that my endpoints respond as they should and that all the services are functional and capable of communicating with each other when run in Docker Compose set-up.
 
 [🌐 View CollectiCats workspace on Postman](https://www.postman.com/jeffrey-fontys/workspace/collecticats)
 
