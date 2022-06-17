@@ -1,8 +1,8 @@
 <!-- omit in toc -->
-# Research report: Optimizing for outsourcing
+# Optimizing for Outsourcing
 
 Written by: Jeffrey E.G. Derksen  
-For course: S-DB-GPS3  
+For course: S-DB-IPS3  
 Class: S3-DB01  
 Date: 17 June 2022  
 Version: 1  
@@ -26,7 +26,7 @@ Version: 1
 
 ## 1. Introduction and main research question
 
-In the field of software engineering, a developer seldom works on a project alone. When you develop a large application or other comprehensive software project, you most commonly work in a team. And software projects or components may very well be used by outside developers to incorporate into their project as a dependency. In these situations it is very important that the code that you write is clear and logically structured according to established style guidelines, and that you provide useful and detailed documentation alongside your code. When this is properly executed, a team member or even a developer from the other side of the world with no prior knowledge of your project can easily utilize, customize, and expand your code. In this research report, I will seek to find answers to the following **main research question:**
+In the field of software engineering, a developer seldom works on a project alone. When you develop a large application or other comprehensive software project, you most commonly work in a team. And software projects or components may very well be used by outside developers to incorporate into their project as a dependency. In these situations it is very important that the code that you write is clear and logically structured according to established style guidelines, and that you provide useful and detailed documentation alongside your code. When this is properly executed, a team member or even a developer from the other side of the world with no prior knowledge of your project can easily utilize, customize, and expand your code. During the course of this research report, I will seek to find answers to the following **main research question:**
 
 > How can you, as a software developer, best prepare and optimize your code/application for seamless outsourcing?
 
@@ -46,7 +46,7 @@ In order to answer the main research question, I have broken the problem down in
 - Is another developer able to utilize my software as part of a new product without requiring my assistance?
 - Are there points for further improvement?
 
-I will try to find answers for each of these questions in the following chapters of this report.
+I will try to find answers for each of these questions in the following sections of this report.
 
 ## 3. Best practices and design patterns for outsourcing your software project
 

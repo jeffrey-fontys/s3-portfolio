@@ -29,7 +29,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [3.1. Cultural differences](#31-cultural-differences)
   - [3.2. Ethics](#32-ethics)
   - [3.3. Agile methods](#33-agile-methods)
-  - [3.4. Security](#34-security)
+  - [3.4. Security Risk: Code Injection](#34-security-risk-code-injection)
   - [3.5. Optimizing for Outsourcing](#35-optimizing-for-outsourcing)
 - [4. Individual Project (CollectiCats)](#4-individual-project-collecticats)
   - [4.1. Software design](#41-software-design)
@@ -81,7 +81,7 @@ As a software engineer you need to be aware of the different ethical aspects, pr
 Software development is often supported by Agile practices. During this semester I have used an Agile method called Scrum for my individual project and my group project. But there are many other Agile methods available to use and each has their own use cases and benefits. I have performed some research into the definition of Agile, the different methods that are available, and how it is used in practice. This product helps prove my proficiency at learning outcome 3: Agile method.  
 [📄 View file](/research/agile_methods.md)
 
-### 3.4. Security
+### 3.4. Security Risk: Code Injection
 
 Placeholder
 
