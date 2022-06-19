@@ -137,14 +137,14 @@ For the CollectiCats application I have made a user stories, an entity relation 
 
 ### 4.2. CI/CD
 
-I applied the knowledge that I acquired while setting up the continuous integration for the group project to set up CI/CD for my individual project as well. Both repositories use two workflows: a Main workflow and a Nightly workflow. The Main workflow runs whenever any code is pushed to the main branch of the repository, or when a pull request is created. It performs the following actions:
+I applied the knowledge that I acquired while setting up the continuous integration for the group project, to set up CI/CD for my individual project as well. Both repositories make use of a *Main* workflow that runs whenever any code is pushed to the main branch of the repository, or when a pull request is created. It performs the following actions:
 
 - Builds each service of the project;
 - Builds Docker images for each service;
 - Publishes the images to DockerHub;
-- Performs integration tests.
+- Performs integration tests (back end only).
 
-The Nightly workflow runs every weekday night on the development branch and checks if the project builds correctly. The code on the development branch is subject to frequent changes which might introduce bugs and errors that are serious enough to prevent the project from building. This nightly check helps detect serious problems early on.
+In addition, the back end repository also makes use of a *Nightly* workflow that runs every weekday night on the development branch and checks if the project builds correctly. The code on the development branch is subject to frequent changes which might introduce bugs and errors that are serious enough to prevent the project from building. This nightly check helps detect serious problems early on.
 
 ![Screenshot of CI/CD workflow for CollectiCats](images/collecticats_ci.png)  
 *Example of a CI/CD workflow run of CollectiCats' back end.*
