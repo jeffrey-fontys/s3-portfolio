@@ -167,7 +167,9 @@ In order to guarantee good software quality and performance for the CollectiCats
 ![Screenshot of a successful integration test run](images/collecticats_int_tests.png)  
 *Result of a successful integration test run.*
 
-Another way to safeguard and improve software quality is to implement static code analysis into your application. I have chosen to do this with SonarCloud. This platform offers easy integration with GitHub and checks for a plethora of possible quality issues, such as: bugs, vulnerabilities, code smells, test coverage, and duplication of code. It checks my code before it is merged into the main branch of my repository and thus makes it very easy for me to fix any of the aforementioned quality issues before they get pushed out to production.
+Another way to safeguard and improve software quality is to implement static code analysis into your application. I have chosen to do this with [SonarCloud](https://sonarcloud.io/). This platform offers easy integration with GitHub and checks for a plethora of possible quality issues, such as: bugs, vulnerabilities, code smells, test coverage, and duplication of code. It checks my code before it is merged into the main branch of my repository and thus makes it very easy for me to fix any of the aforementioned quality issues before they get pushed out to production.
+
+[🌐 View CollectiCats code analysis status on SonarCloud](https://sonarcloud.io/organizations/collecticats/projects)
 
 ![Screenshot of SonarCloud static code analysis overview](images/sonarcloud_overview.png)  
 *Overview of static code analysis for some of my project's services in SonarCloud.*
