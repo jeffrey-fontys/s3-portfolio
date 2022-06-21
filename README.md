@@ -4,7 +4,7 @@
 Written by: Jeffrey E.G. Derksen  
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
-Coaches: Bert Aarts, Samuil Angelov, Leon van Bokhorst, Timo Hermans, and Jean Paul Ligthart
+Coaches: Bert Aarts, Samuil Angelov, Leon van Bokhorst, Timo Hermans, and Jean Paul Ligthart  
 Date: 19 June 2022  
 Version: 4  
 
