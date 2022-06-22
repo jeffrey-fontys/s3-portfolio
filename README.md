@@ -19,6 +19,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
 | 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 4.2](#42-cicd) about CI/CD for individual project<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
 | 4 | * Added [outsourcing research](#36-optimizing-for-outsourcing)<br>* Added [security research](#35-security-risk-code-injection)<br>* Added [reflection](#6-reflection)<br>* Added IP [Software quality](#43-software-quality)<br>* Improved IP [Software design](#41-software-design)<br>* Improved IP [CI/CD](#42-cicd) |
+| 5 | * Added [business processes research](#34-business-processes) |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -89,7 +90,8 @@ Software development is often supported by Agile practices. During this semester
 
 ### 3.4. Business processes
 
-Placeholder
+The software applications that you develop as a software engineer can be used to support and improve business processes. The can help to automate them or to make them more efficient, faster, and/or require less personnel. Some business processes would not even be possible without software applications. In return, business processes can be essential tools for developing and releasing your software applications. This product helps prove my proficiency at learning outcome 7: Business processes.  
+[📄 View file](/research/business_processes.md)
 
 ### 3.5. Security Risk: Code Injection
 
