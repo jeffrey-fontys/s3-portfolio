@@ -38,7 +38,7 @@ Below are two examples of business processes for the development of a software a
 
 ### 3.1. Product release process
 
-When releasing a new version of a software application, it is important that it meets certain standards before it can be deemed ready for deployment. That is where a product release process comes in.
+When releasing a new version of a software application, it is important that it meets certain standards before it can be deemed ready for deployment. That is where a product release process comes in. It is a good example of an operational process.
 
 Below you can see a product release process as it could be implemented for Eeventify. The stakeholders in this process are the customer and the departments of development, quality assurance, and marketing. The process contains a number of tasks that are necessary to ensure a qualitative, secure, and reliable release. In addition to the regular tasks, the process contains four subprocesses for user acceptance testing, security analysis, preparing release for deployment, and the final quality review. The next section contains a more detailed view of one of them: user acceptance testing.
 
@@ -53,7 +53,7 @@ If the release passes the tests, the development team gets permission to go ahea
 
 One of steps in the product release process is verifying that the code passes certain quality requirements before it is released. This can be ascertained by applying user acceptance testing, a comprehensive process that qualifies as a business process on its own.
 
-Below you can see a user acceptance testing process as it could be implemented for Eeventify. The stakeholders in this process are the customer and the departments of development, quality assurance ... 
+Below you can see a user acceptance testing process as it could be implemented for Eeventify. The stakeholders in this process are testers and the departments of quality assurance. Indirectly, the department of software development is also involved, as the task of the quality assurance team is to test their release build, and report their findings back to them.
 
 ![Screenshot of user acceptance testing process for Eeventify.](../images/user_acceptance_process.png)  
 *User acceptance testing process for Eeventify.*
