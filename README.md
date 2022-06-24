@@ -19,7 +19,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
 | 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 4.2](#42-cicd) about CI/CD for individual project<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
 | 4 | * Added [outsourcing research](#36-optimizing-for-outsourcing)<br>* Added [security research](#35-security-risk-code-injection)<br>* Added [reflection](#6-reflection)<br>* Added IP [Software quality](#43-software-quality)<br>* Improved IP [Software design](#41-software-design)<br>* Improved IP [CI/CD](#42-cicd) |
-| 5 | * Added [business processes research](#34-business-processes) |
+| 5 | * Added [business processes research](#34-business-processes)<br>* Added [UI/UX design](#54-ui-and-ux-design) for Eeventify |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -41,6 +41,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
   - [5.3. Software quality](#53-software-quality)
+  - [5.4. UI and UX design](#54-ui-and-ux-design)
 - [6. Reflection](#6-reflection)
   - [6.1. What I have learned](#61-what-i-have-learned)
   - [6.2. What went well](#62-what-went-well)
@@ -243,6 +244,11 @@ In addition to the tests above, I have made a [status page](https://eeventify.gi
 *Eeventify status page.*
 
 These activities have improved my experience with and skill at learning outcome 2: Software quality. 
+
+### 5.4. UI and UX design
+
+For the final part of our group assignment, we had to build a front end for Eeventify that would be able to connect with the back end that we had developed earlier. In order to make sure that it is user-friendly, we have put some effort into making good UI and UX designs for our front end.  
+[📄 View file](/eeventify/ui_ux.md)
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
