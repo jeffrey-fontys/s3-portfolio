@@ -4,9 +4,9 @@
 Written by: Jeffrey E.G. Derksen  
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
-Coaches: Bert Aarts, Samuil Angelov, Leon van Bokhorst, Timo Hermans, and Jean Paul Ligthart
-Date: 19 June 2022  
-Version: 4  
+Coaches: Bert Aarts, Samuil Angelov, Leon van Bokhorst, Timo Hermans, and Jean Paul Ligthart  
+Date: 24 June 2022  
+Version: 5  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
 
@@ -19,6 +19,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
 | 2 | * Added [Learning Outcomes](#2-learning-outcomes)<br>* Updated version of [Cultural Differences research](#31-cultural-differences)<br>* Extended [section 4](#4-individual-project-collecticats): explanation choice for Java and learning process<br>* Added [section 5.2](#52-cicd) about CI/CD within group project |
 | 3 | * Added [Ethics Analysis](#32-ethics)<br>* Added [Agile methods analysis](#33-agile-methods)<br>* Added [section 4.2](#42-cicd) about CI/CD for individual project<br>* Added [section 5.3](#53-software-quality) about software quality for group project |
 | 4 | * Added [outsourcing research](#36-optimizing-for-outsourcing)<br>* Added [security research](#35-security-risk-code-injection)<br>* Added [reflection](#6-reflection)<br>* Added IP [Software quality](#43-software-quality)<br>* Improved IP [Software design](#41-software-design)<br>* Improved IP [CI/CD](#42-cicd) |
+| 5 | * Added [business processes research](#34-business-processes)<br>* Added [UI/UX design](#54-ui-and-ux-design) for Eeventify |
 
 <!-- omit in toc -->
 ## Table of contents
@@ -40,6 +41,7 @@ Portfolio for semester 3 of the bachelor's program of IT from Fontys University 
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
   - [5.3. Software quality](#53-software-quality)
+  - [5.4. UI and UX design](#54-ui-and-ux-design)
 - [6. Reflection](#6-reflection)
   - [6.1. What I have learned](#61-what-i-have-learned)
   - [6.2. What went well](#62-what-went-well)
@@ -89,7 +91,8 @@ Software development is often supported by Agile practices. During this semester
 
 ### 3.4. Business processes
 
-Placeholder
+The software applications that you develop as a software engineer can be used to support and improve business processes. The can help to automate them or to make them more efficient, faster, and/or require less personnel. Some business processes would not even be possible without software applications. In return, business processes can be essential tools for developing and releasing your software applications. This product helps prove my proficiency at learning outcome 7: Business processes.  
+[📄 View file](/research/business_processes.md)
 
 ### 3.5. Security Risk: Code Injection
 
@@ -187,16 +190,13 @@ Writing these tests and implementing SonarCloud into my CI/CD workflow has impro
 
 Eeventify is the name of the group project developed in collaboration with two teams from the Oulu University of Applied Sciences (OAMK) located in Oulu, Finland. It is an application that helps people find others who share similar interests to theirs and provides a platform to organize, discover and join events (online *and* in person) that correspond to their interests.
 
-We have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help us manage our progress and planning. We have chosen to divide the project into five sprints in total, three of three weeks and two of two weeks in length. Using this tool and the framework demonstrates some of my proficiency at learning outcome 8: Professional.  
+We have made use of the SCRUM framework (a popular Agile project management approach) while working on this project and chose Taiga.io as the tool to help us manage our progress and planning. We have chosen to divide the project into five sprints in total, three of three weeks and two of two weeks in length. Each day, we started with a stand-up meeting, where we discussed progress and divided the tasks for the day. And at the end of each sprint we held a sprint review and a retrospective, before moving on to the planning for the next sprint. Working according to a SCRUM workflow demonstrates some of my proficiency at learning outcome 8: Professional.  
 [🌐 View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-international-project)
 
-Some of the components of Eeventify that I have worked on are the *event feed* and *event detail* pages. These were written in JavaScript and developed with the React library. We decided, as a group, to use this particular combination for the Eeventify front end, because each one of us was already working with these technologies for their individual project as well.
+I have done a lot of the work for the Eeventify front end application. This includes the event overview, event detail, event create, and map overview pages. These were written in JavaScript and developed with the React library. We decided, as a group, to use this particular combination for the Eeventify front end, because each one of us was already working with these technologies for their individual project as well.
 
-![Screenshot of Eeventify event feed page.](images/eeventify_overview.png)  
-*Eeventify event feed.*
-
-![Screenshot of Eeventify event detail page.](images/eeventify_detail.png)  
-*Eeventify event detail page.*
+![Animation showing Eeventify front end.](images/eeventify_frontend.gif)  
+*Eeventify front end.*
 
 [📁 Eeventify repositories](https://github.com/orgs/Eeventify/repositories)
 
@@ -244,6 +244,11 @@ In addition to the tests above, I have made a [status page](https://eeventify.gi
 *Eeventify status page.*
 
 These activities have improved my experience with and skill at learning outcome 2: Software quality. 
+
+### 5.4. UI and UX design
+
+For the final part of our group assignment, we had to build a front end for Eeventify that would be able to connect with the back end that we had developed earlier. In order to make sure that it is user-friendly, we have put some effort into making good UI and UX designs for our front end.  
+[📄 View file](/eeventify/ui_ux.md)
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
