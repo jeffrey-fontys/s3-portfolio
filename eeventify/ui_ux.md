@@ -12,6 +12,8 @@ Below you can see some sketches for the front end of the application. They show 
 ![Screenshot of final design for event feed page of Eeventify.](/images/eeventify_overview.png)  
 *Final design for event feed page of Eeventify.*
 
+We've chosen to display each event in the overview and on the detail page with an image related to one of the interests belonging to the event. This makes it easy to see in a glance to which interest an event belongs to. The overview also displays a badge next to the title of an event if the logged in user has joined that event and/or is the owner of the event.
+
 ## UX design
 
 User experience is determined by many factors, such as: the presence of useful features, the customer attention span, aesthetics, accessibility, and value for the user. We feel that our application definitely provides useful features and therefore also value for the user, and aesthetically it is also not too bad to look at.
