@@ -5,8 +5,8 @@ Written by: Jeffrey E.G. Derksen
 For course: S-DB-IPS3 and S-DB-GPS3  
 Class: S3-DB01  
 Coaches: Bert Aarts, Samuil Angelov, Leon van Bokhorst, Timo Hermans, and Jean Paul Ligthart  
-Date: 19 June 2022  
-Version: 4  
+Date: 24 June 2022  
+Version: 5  
 
 Portfolio for semester 3 of the bachelor's program of IT from Fontys University of Applied Sciences.
 
@@ -194,11 +194,8 @@ We have made use of the SCRUM framework while working on this project and chose 
 
 Some of the components of Eeventify that I have worked on are the *event feed* and *event detail* pages. These were written in JavaScript and developed with the React library. We decided, as a group, to use this particular combination for the Eeventify front end, because each one of us was already working with these technologies for their individual project as well.
 
-![Screenshot of Eeventify event feed page.](images/eeventify_overview.png)  
-*Eeventify event feed.*
-
-![Screenshot of Eeventify event detail page.](images/eeventify_detail.png)  
-*Eeventify event detail page.*
+![Animation showing Eeventify front end.](images/eeventify_frontend.gif)  
+*Eeventify front end.*
 
 [📁 Eeventify repositories](https://github.com/orgs/Eeventify/repositories)
 
