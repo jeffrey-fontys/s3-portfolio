@@ -189,10 +189,10 @@ Writing these tests and implementing SonarCloud into my CI/CD workflow has impro
 
 Eeventify is the name of the group project developed in collaboration with two teams from the Oulu University of Applied Sciences (OAMK) located in Oulu, Finland. It is an application that helps people find others who share similar interests to theirs and provides a platform to organize, discover and join events (online *and* in person) that correspond to their interests.
 
-We have made use of the SCRUM framework while working on this project and chose Taiga.io as the tool to help us manage our progress and planning. We have chosen to divide the project into five sprints in total, three of three weeks and two of two weeks in length. Using this tool and the framework demonstrates some of my proficiency at learning outcome 8: Professional.  
+We have made use of the SCRUM framework (a popular Agile project management approach) while working on this project and chose Taiga.io as the tool to help us manage our progress and planning. We have chosen to divide the project into five sprints in total, three of three weeks and two of two weeks in length. Each day, we started with a stand-up meeting, where we discussed progress and divided the tasks for the day. And at the end of each sprint we held a sprint review and a retrospective, before moving on to the planning for the next sprint. Working according to a SCRUM workflow demonstrates some of my proficiency at learning outcome 8: Professional.  
 [🌐 View project management on Taiga.io](https://tree.taiga.io/project/jeffrey_derksen-international-project)
 
-Some of the components of Eeventify that I have worked on are the *event feed* and *event detail* pages. These were written in JavaScript and developed with the React library. We decided, as a group, to use this particular combination for the Eeventify front end, because each one of us was already working with these technologies for their individual project as well.
+I have done a lot of the work for the Eeventify front end application. This includes the event overview, event detail, event create, and map overview pages. These were written in JavaScript and developed with the React library. We decided, as a group, to use this particular combination for the Eeventify front end, because each one of us was already working with these technologies for their individual project as well.
 
 ![Animation showing Eeventify front end.](images/eeventify_frontend.gif)  
 *Eeventify front end.*
